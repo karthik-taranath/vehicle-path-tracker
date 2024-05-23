@@ -23,3 +23,7 @@ The transformation matrix is the 4x4 matrix that directly contains how to get fr
 
 ## Reconstructing the Trajectory
 The initial position of the car starts at the origin, which is represented by the 4x4 identity matrix. This says that the orientation is forward in all directions and the position is zero. Then, the position at each frame can be calculated by multiplying the previous position by the transformation matrix. By building off each previous frame, the entire path of the car can be made, which is has been correctly created, as shown in the final 2D and 3D graphs below.
+
+## Results
+![image](/2d_position.png)
+![image](/3d_position.png)
